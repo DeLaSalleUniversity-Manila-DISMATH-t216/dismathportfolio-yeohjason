@@ -6,14 +6,14 @@ dismathportfolio-yeohjason created by Classroom for GitHub
 - I learned that a *proposition* is a declarative statement which can be either true (1) or false (0), but cannot be both.
 - I've learned the usage, as well as its logical equation, of the following operators/symbols:
 
-| Operator  |  Symbol | Usage | Equation |
-| :-----: |:-------:|:-----:| :-------: |
-| ¬ |Negation | not | val(¬p) = 1 - val(p) |
-| ∧ | Conjunction | and | val(p ∧ q) = min(val(p), val(q)) |
-| v | Disjunction | or | val(p v q) = max(val(p), val(q)) |
-| ⊕ | Exclusive disjunction | xor | p ⊕ q = (¬p ∧ q) v (p ∧ ¬q) |
-| → | Conditional | if, then | p → q = ¬p v q |
-| ↔ | Biconditional | iff | p ↔ q = (p → q) ∧ (q → p) | 
+| Operator  |  Symbol | Usage | Formula | Logical Expression |
+| :-----: |:-------:|:-----:| :-------: | :-------: |
+| ¬ |Negation | not | val(¬p) = 1 - val(p) | ¬p |
+| ∧ | Conjunction | and | val(p ∧ q) = min(val(p), val(q)) | p ∧ q |
+| v | Disjunction | or | val(p v q) = max(val(p), val(q)) | p v q |
+| ⊕ | Exclusive disjunction | xor | if val(p)  not equal val(q) = 1 , otherwise  0|  p ⊕ q  ≡ (¬p ∧ q) v (p ∧ ¬q) |
+| → | Conditional | if, then | if val(p)  ≤ val(q) = 1 , otherwise  0  | p → q ≡  ¬p v q |
+| ↔ | Biconditional | iff | if val(p) equals val(q) = 1 , otherwise  0 |  p ↔ q = (p → q) ∧ (q → p) |
 - I knew how to verify a statement by using a Truth Table.
 - Also, I've learned the different propositional logic such as:
   - Inverse of p → q: ¬p → ¬q
