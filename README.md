@@ -6,7 +6,7 @@ dismathportfolio-yeohjason created by Classroom for GitHub
 - I learned that a *proposition* is a declarative statement which can be either true (1) or false (0), but cannot be both.
 - I've learned the usage, as well as its logical equation, of the following operators/symbols:
 
-| Operator  |  Symbol | Usage | Formula | Logical Expression |
+| Logical Symbol  |  Logical Operator | Shorthand | Formula | Logical Expression |
 | :-----: |:-------:|:-----:| :-------: | :-------: |
 | ¬ |Negation | not | val(¬p) = 1 - val(p) | ¬p |
 | ∧ | Conjunction | and | val(p ∧ q) = min(val(p), val(q)) | p ∧ q |
