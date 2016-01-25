@@ -13,7 +13,7 @@ dismathportfolio-yeohjason created by Classroom for GitHub
 | v | Disjunction | or | val(p v q) = max(val(p), val(q)) | p v q |
 | ⊕ | Exclusive disjunction | xor | if val(p)  not equal val(q) = 1 , otherwise  0|  p ⊕ q  ≡ (¬p ∧ q) v (p ∧ ¬q) |
 | → | Conditional | if, then | if val(p)  ≤ val(q) = 1 , otherwise  0  | p → q ≡  ¬p v q |
-| ↔ | Biconditional | iff | if val(p) equals val(q) = 1 , otherwise  0 |  p ↔ q = (p → q) ∧ (q → p) |
+| ↔ | Biconditional | iff | if val(p) equals val(q) = 1 , otherwise  0 |  p ↔ q ≡ (p → q) ∧ (q → p) |
 - I knew how to verify a statement by using a Truth Table.
 - Also, I've learned the different propositional logic such as:
   - Inverse of p → q: ¬p → ¬q
