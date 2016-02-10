@@ -20,21 +20,22 @@ dismathportfolio-yeohjason created by Classroom for GitHub
   - Converse of p → q: q → p
   - Contrapositive of p → q: ¬q → ¬p (which also happens to be the equivalent value of the original statement)
 
+
 ## Week 2:
 - If Algebra has a variety of laws and rules in solving mathematical equations, Discrete Mathematics has its own set of laws and rules too. These are called **logical equivalences**. These are as follows:
 
-|                           Equivalence                          |         Name        |
-|:--------------------------------------------------------------:|:-------------------:|
-|                      p ∧ T ≡ p  //     p v F ≡ p               |    Identity laws    |
-|                       p v T ≡ T  //    p ∧ F ≡ F               |   Domination laws   |
-|                       p v p ≡ p //     p ∧ p ≡ p               |   Idempotent laws   |
-|                            ¬(¬p) ≡ p                           | Double negation law |
-|                   p v q ≡ q v p // p ∧ q ≡ q ∧ p               |   Commutative laws  |
-|       (p v q) v r ≡ p v (q v r) // (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)   |   Associative laws  |
-| p v (q ∧ r) ≡ (p v q) ∧ (p v r) //  p ∧(q v r) ≡ (p ∧ q) v (p ∧ r) |  Distributive laws  |
-|              ¬(p ∧ q) ≡ ¬p v ¬q // ¬(p v q) ≡ ¬p ∧ ¬q          |   De Morgan's laws  |
-|                 p v (p ∧ q) ≡ p // p ∧ (p v q) ≡ p             |   Absorption laws   |
-|                     p v ¬p ≡ T // p ∧ ¬p ≡ F                   |    Negation laws    |
+|                           Equivalence                           |         Name        |
+|:-------------------------------------------------------------:  |:-------------------:|
+|                      p ∧ T ≡ p <br> p v F ≡ p                   |    Identity laws    |
+|                       p v T ≡ T <br> p ∧ F ≡ F                  |   Domination laws   |
+|                       p v p ≡ p <br> p ∧ p ≡ p                  |   Idempotent laws   |
+|                            ¬(¬p) ≡ p                            | Double negation law |
+|                   p v q ≡ q v p <br> p ∧ q ≡ q ∧ p              |   Commutative laws  |
+|       (p v q) v r ≡ p v (q v r) <br> (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)  |   Associative laws  |
+| p v (q ∧ r) ≡ (p v q) ∧ (p v r) <br>  p ∧(q v r) ≡ (p ∧ q) v (p ∧ r) |  Distributive laws  |
+|              ¬(p ∧ q) ≡ ¬p v ¬q <br> ¬(p v q) ≡ ¬p ∧ ¬q          |   De Morgan's laws  |
+|                 p v (p ∧ q) ≡ p <br> p ∧ (p v q) ≡ p             |   Absorption laws   |
+|                     p v ¬p ≡ T <br> p ∧ ¬p ≡ F                   |    Negation laws    |
 
 - Superman Logic HW: There are a lot variables in this statement which confuses the reader. By applying the rules of inference, we can test the validity of the argument. The argument is valid. Superman does not exist. 
 - The idea behind the use of **predicate logic** is comparable to the subject-predicate relationship in English language. We can simplify the proposition or sentence into *subject* and *predicate*.
@@ -43,23 +44,45 @@ dismathportfolio-yeohjason created by Classroom for GitHub
   - *Universal Quantification* - "tells us that a predicate is true for every element under consideration"
   - *Existential Quantification* - "tells us that there is one or more element under consideration for which the predicate is true"
 
+
 ## Week 3:
 - I learned that an argument is **valid** if and only if its premises and final proposition are true. If not, then they will lead to invalid argument (**fallacy**).
 - Since verifying the validity of an argument through a truth table is a tedious process, **rules of inference** may come handy for students to construct more complex valid argument forms. The rules of inference are as follows:
 
-|   Rule of Inference  |            Tautology           |          Name          |
-|:--------------------:|:------------------------------:|:----------------------:|
-|       p, p→q ∴q      |        (p ∧ (p → q)) → q       |      Modus ponens      |
-|     ¬q, p→q ∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |      Modus tollens     |
-|     p→q, q→r ∴p→r    |  ((p → q) ∧ (q → r)) → (p → r) | Hypothetical syllogism |
-|      p∨q, ¬p ∴q      |       ((p ∨ q) ∧ ¬p) → q       |  Disjunctive syllogism |
-|       p ∴p ∨ q       |           p → (p ∨ q)          |        Addition        |
-|       p ∧ q ∴p       |           (p ∧ q) → p          |      Simplication      |
-|      p, q ∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
-| p ∨ q, ¬p ∨ r ∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       |
+|   Rule of Inference       |            Tautology           |          Name          |
+|:--------------------:     |:------------------------------:|:----------------------:|
+|       p<br>p→q<br>∴q      |        (p ∧ (p → q)) → q       |      Modus ponens      |
+|     ¬q<br>p→q<br>∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |      Modus tollens     |
+|     p→q<br>q→r<br>∴p→r    |  ((p → q) ∧ (q → r)) → (p → r) | Hypothetical syllogism |
+|      p∨q<br>¬p<br>∴q      |       ((p ∨ q) ∧ ¬p) → q       |  Disjunctive syllogism |
+|       p<br>∴p ∨ q         |           p → (p ∨ q)          |        Addition        |
+|       p ∧ q<br>∴p         |           (p ∧ q) → p          |      Simplication      |
+|      p<br>q<br>∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |       Conjunction      |
+| p ∨ q<br>¬p ∨ r<br>∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       |
 
 - We were introduced to methods of constructing proofs.
 - **Direct proof** (P → Q): 
   - Steps in constructing Direct Proof:
     1. Assume that P (hypothesis) is true.
     2. Use P to show that Q (conclusion) must be true.
+
+
+## Week 4:
+- **Proof by Contraposition** (¬Q → ¬P): 
+  - Steps in constructing Contrapositive/indirect Proof:
+    1. Assume that ¬Q is true.
+    2. Show that ¬P is also true.
+- **Vacuous & Trivial Proofs**: 
+  - Vacuous Proof: ¬P → (P → Q)
+  - Trivial Proof: Q → (P → Q)
+- **Proof by Contradiction**:
+  - Steps in constructing Proof by Contradiction:
+    1. Assume ¬P is true.
+    2. Demonstrate (1) ends up in a contradiction.
+- Our instructor provided a clear definition of a rational number. 
+  - The real number r is rational if there exist integers p and q with q ̸= 0 such that r = p/q. Otherwise, it is an irrational number.
+  - Q = {a/b | a, b ∈ ℤ} where b≠0, a & b have no common factor other than ±1
+
+
+## Week 5:
+-
