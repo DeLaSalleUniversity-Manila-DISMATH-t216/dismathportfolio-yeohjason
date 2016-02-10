@@ -80,9 +80,9 @@ dismathportfolio-yeohjason created by Classroom for GitHub
     1. Assume ¬P is true.
     2. Demonstrate (1) ends up in a contradiction.
 - Our instructor provided a clear definition of a rational number. 
-  - The real number r is rational if there exist integers p and q with q ̸= 0 such that r = p/q. Otherwise, it is an irrational number.
+  - The real number r is rational if there exist integers p and q with q≠0 such that r = p/q. Otherwise, it is an irrational number.
   - Q = {a/b | a, b ∈ ℤ} where b≠0, a & b have no common factor other than ±1
 
 
 ## Week 5:
--
+- tbc.
