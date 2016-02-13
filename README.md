@@ -1,6 +1,8 @@
 # dismathportfolio-yeohjason
 dismathportfolio-yeohjason created by Classroom for GitHub
 
+Jason Yeoh | 11417889 | CPE | DISMATH EQ 
+
 ## Week 1:
 - In this week, I was introduced to an odd but interesting subject called **Discrete Mathematics** (DISMATH).
 - I learned that a *proposition* is a declarative statement which can be either true (1) or false (0), but cannot be both.
