@@ -22,6 +22,10 @@ dismathportfolio-yeohjason created by Classroom for GitHub
 
 
 ## Week 2:
+- [Chap 1.3] **Terminologies**
+  - A **tautology** is a compound proposition that is always true, no matter what the truth values of the propositional variables that occur in it. 
+  - A **contradiction** is a compound proposition that is always false. 
+  - A **contingency** is a compound proposition that is neither a tautology nor a contradiction.
 - If Algebra has a variety of laws and rules in solving mathematical equations, Discrete Mathematics has its own set of laws and rules too. These are called **logical equivalences**. These are as follows:
 
 |                           Equivalence                           |         Name        |
@@ -41,12 +45,14 @@ dismathportfolio-yeohjason created by Classroom for GitHub
 - The idea behind the use of **predicate logic** is comparable to the subject-predicate relationship in English language. We can simplify the proposition or sentence into *subject* and *predicate*.
   - Ex. In the statement "j is equal to 5", the variable 'j' is the subject and the phrase "is equal to 5" is the predicate.
 - We were introduced to a new topic: **Quantifiers**. The two types of quantification are the following:
-  - *Universal Quantification* - "tells us that a predicate is true for every element under consideration"
-  - *Existential Quantification* - "tells us that there is one or more element under consideration for which the predicate is true"
+  - *Universal Quantification* (∀) - "tells us that a predicate is true for every element under consideration"
+    - To disprove this statement, one can use a counterexample.
+  - *Existential Quantification* (∃) - "tells us that there is one or more element under consideration for which the predicate is true"
 
 
 ## Week 3:
 - I learned that an argument is **valid** if and only if its premises and final proposition are true. If not, then they will lead to invalid argument (**fallacy**).
+- **circular reasoning** or **begging the question**: reasoning where one or more steps are based on the truth of the statement being proved
 - Since verifying the validity of an argument through a truth table is a tedious process, **rules of inference** may come handy for students to construct more complex valid argument forms. The rules of inference are as follows:
 
 |   Rule of Inference       |            Tautology           |          Name          |
@@ -61,29 +67,62 @@ dismathportfolio-yeohjason created by Classroom for GitHub
 | p ∨ q<br>¬p ∨ r<br>∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) |       Resolution       |
 
 - We were introduced to methods of constructing proofs.
-- **Direct proof** (P → Q): 
+- **Terminologies** [from Chapter 1.7]
+  - A **theorem** is a statement that can be shown to be true. Also, it can referred to as *facts* or *results*.
+  - A **proof** is a valid argument that establishes the truth of a theorem. 
+  - The statements used in a proof can include **axioms** (or *postulates*).
+  - A **lemma** (plural *lemmas* or *lemmata*) is considered as a less important theorem that is helpful in the proof of other results.
+  - A **corollary** is a theorem that can be established directly from a theorem that has been proved. 
+  - A **conjecture** is a statement that is being proposed to be a true statement, usually on the basis of some partial evidence, a heuristic argument, or the intuition of an expert.
+  - **Indirect proofs** do not start with the premises and end with the conclusion.
+- **Methods of Proof**
+  1. Direct Proof
+  2. Proof by Contraposition (Indirect)
+  3. Vacuous and Trivial Proofs
+  4. Proof by Contradiction (Indirect)
+  5. Proof by Equivalence
+  6. Mathematical Induction
+- [1/6] **Direct proof** (P → Q): 
   - Steps in constructing Direct Proof:
     1. Assume that P (hypothesis) is true.
     2. Use P to show that Q (conclusion) must be true.
 
 
 ## Week 4:
-- **Proof by Contraposition** (¬Q → ¬P): 
-  - Steps in constructing Contrapositive/indirect Proof:
+- [2/6] **Proof by Contraposition** (¬Q → ¬P): 
+  - Steps in constructing Contrapositive Proof:
     1. Assume that ¬Q is true.
     2. Show that ¬P is also true.
-- **Vacuous & Trivial Proofs**: 
-  - Vacuous Proof: ¬P → (P → Q)
-  - Trivial Proof: Q → (P → Q)
-- **Proof by Contradiction**:
+- [3/6] **Vacuous & Trivial Proofs**: 
+  - Vacuous Proof: It is a proof that P → Q is true based on the fact that P is false.
+    - ¬P → (P → Q)
+  - Trivial Proof: It is a proof that P → Q is true based on the fact that Q is true.
+    - Q → (P → Q)
+- [4/6] **Proof by Contradiction**:
   - Steps in constructing Proof by Contradiction:
     1. Assume P is true.
     2. Assume ¬Q is true.
-    3. Demonstrate a conclusion.
+    3. Demonstrate a contradiction.
 - Our instructor provided a clear definition of a rational number. 
-  - The real number r is rational if there exist integers p and q with q≠0 such that r = p/q. Otherwise, it is an irrational number.
+  - The real number *r* is *rational* if there exist integers p and q with q≠0 such that **r = p/q**. Otherwise, it is an *irrational number*.
   - Q = {a/b | a, b ∈ ℤ} where b≠0, a & b have no common factor other than ±1
 
 
 ## Week 5:
-- tbc.
+- [5/6] **Proof by Equivalence** (Biconditionals):
+  - P ↔ Q ≡ (P → Q) ∧ (Q → P)
+  - Steps in constructing Proof by Equivalence:
+    - Show P → Q is true.
+    - Show Q → P is true.
+  - *Proof by cases*: a proof broken into separate cases, where these cases cover all possibilities
+- [6/6] **Mathematical Induction**:
+  - The **principle of mathematical induction** states that: "If it starts true and its stay true then it's always true."
+  - **Mathematical induction** can be inferred to as a **domino effect**. 
+    - (1) The first domino falls. 
+    - (2) When any domino falls, the next domino falls.
+    - Therefore, all dominos will fall!
+  - Steps in constructing Mathematical Induction:
+    1. Show (not ~~assume~~) P(1) or P(0) to be true.
+    2. Assume P(k) is true.
+    3. Show P(k+1) to be true.
+
