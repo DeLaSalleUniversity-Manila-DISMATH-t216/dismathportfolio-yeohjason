@@ -116,7 +116,8 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
   - Steps in constructing Proof by Equivalence:
     - Show P → Q is true.
     - Show Q → P is true.
-  - *Proof by cases*: a proof broken into separate cases, where these cases cover all possibilities
+  - *Proof by cases*: A proof broken into separate cases, where these cases cover all possibilities.
+  - *Substitution* is not considered a proof.
 - [6/6] **Mathematical Induction**:
   - The **principle of mathematical induction** states that: "If it starts true and its stay true then it's always true."
   - **Mathematical induction** can be inferred to as a **domino effect**. 
