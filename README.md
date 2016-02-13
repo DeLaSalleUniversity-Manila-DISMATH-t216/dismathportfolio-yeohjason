@@ -4,7 +4,7 @@ dismathportfolio-yeohjason created by Classroom for GitHub
 ## Week 1:
 - In this week, I was introduced to an odd but interesting subject called **Discrete Mathematics** (DISMATH).
 - I learned that a *proposition* is a declarative statement which can be either true (1) or false (0), but cannot be both.
-- I've learned the usage, as well as its logical equation, of the following operators/symbols:
+- I've learned the usage, as well as its formulas/logical expressions, of the following logical symbols:
 
 | Logical Symbol  |  Logical Operator | Shorthand | Formula | Logical Expression |
 | :-----: |:-------:|:-----:| :-------: | :-------: |
@@ -22,7 +22,7 @@ dismathportfolio-yeohjason created by Classroom for GitHub
 
 
 ## Week 2:
-- [Chap 1.3] **Terminologies**
+- **Terminologies** (from Chapter 1.3)
   - A **tautology** is a compound proposition that is always true, no matter what the truth values of the propositional variables that occur in it. 
   - A **contradiction** is a compound proposition that is always false. 
   - A **contingency** is a compound proposition that is neither a tautology nor a contradiction.
