@@ -2,6 +2,7 @@
 dismathportfolio-yeohjason created by Classroom for GitHub
 
 Jason Yeoh | 11417889 | CPE | DISMATH EQ 
+- [PROJECT 0.0 LINK](https://github.com/yeohjason/DISMATH_Project0.0_yeohjason)
 
 ## Week 1:
 - In this week, I was introduced to an odd but interesting subject called **Discrete Mathematics** (DISMATH).
