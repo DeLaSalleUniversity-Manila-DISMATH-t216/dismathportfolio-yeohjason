@@ -129,4 +129,86 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
     1. Show (not ~~assume~~) P(1) or P(0) to be true.
     2. Assume P(k) is true.
     3. Show P(k+1) to be true.
+- **Program Correctness**
+  - A program is said to be correct if it produces the correct output for every possible input. 
+  - Two parts of proof:
+    1. Partial correctness
+    2. Show that the program terminates.
+	    - p – initial assertion (INPUT)
+	    - S – `if ... else ...` (PROGRAM SEGMENT)
+	      - [Definition from the book] A program, or program segment, S is said to be partially correct with respect to the initial assertion p and the final assertion q if whenever p is true for the input values of S and S terminates, then q is true for the output values of S. The notation p{S}q in- dicates that the program, or program segment, S is partially correct with respect to the initial assertion p and the final assertion q.
+	    - q – final assertion (OUTPUT)
+  - **Hoare Triple Notation**: p{S}q
+  - **Composition Rule** <br>
+   p{S<sub>1</sub>}q <br>
+   q{S<sub>2</sub>}r <br>
+  -------------------- <br>
+  ∴ p{S<sub>1</sub>:S<sub>2</sub>}q <br><br>
+**END OF QUIZ 1 COVERAGE** <br><br>
+- **Recursive Algorithms**
+  - An algorithm is called recursive if it solves a problem by reducing it to an instance of the same problem with smaller input.
+  - Examples:
+    - [1] Give a recursive algorithm for computing n!, where n is a nonnegative integer.<br>
+    ``` procedure factorial(n: nonnegative integer)``` <br>
+    ```if n = 0 then return 1``` <br>
+    ```else return n · factorial(n − 1)``` <br>
+    - [2] Give a recursive algorithm for computing a<sup>n</sup>, where a is a nonzero real number and n is a nonnegative integer.
+    ``` procedure power(a: nonzero real number, n: nonnegative integer)``` <br>
+    ```if n = 0 then return 1``` <br>
+    ```else return a · power(a, n − 1)``` <br>
 
+## Week 6:
+
+----
+
+## Week 7:
+
+---
+
+## Week 8: 
+
+- **Algorithms**
+  - It is defined as a finite set of precise instructions for performing a computation or for solving a problem.
+  - **Properties of Algorithms**
+    - Input: An algorithm has input values from a specified set.
+    - Output: From each set of input values an algorithm produces output values from specified set. The output values are the solution to the problem.
+    􏰽- Definiteness: The steps of an algorithm must be defined precisely.
+    - Correctness: An algorithm should produce the correct output values for each set of input values.
+    - Finiteness: An algorithm should produce the desired output after a finite (but perhaps large) number of steps for any input in the set. 
+    - Effectiveness: It must be possible to perform each step of an algorithm exactly and in a finite amount of time.
+    - Generality: The procedure should be applicable for all problems of the desired form, not just for a particular set of input values.
+- **Pseudocode** serves as an intermediate step in the construction of programs implementing algorithms in one of a variety of different programming languages. 
+- *A key difference between this pseudocode and code in a programming language is that we can use any well-defined instruction even if it would take many lines of code to implement this instruction.*
+- Preconditions/Postconditions
+  - Preconditions - statements that describe the valid input 
+    - Ex. {a<sub>1</sub>, A<sub>2</sub>, ..., a<sub>n</sub>} ∈ ℤ
+  - Postconditions - conditions that the output should satisfy when the program has run
+    - Ex. Output: MAX - largest number
+- **Searching Algorithms**
+  - Linear Search (or Sequential Search) <br>
+  ![ScreenShot](linsearch.png) 
+  - Binary Search <br>
+  ![ScreenShot](binsearch.png) 
+- **Sorting Algorithms**
+  - Bubble Sort <br>
+  ![ScreenShot](bubsort.png) 
+  - Insertion Sort <br>
+  ![ScreenShot](inssort.png)
+<br>Outer *for* loop means j<sup>th</sup> iterations. *While* loop is used for looking the location. Inner *for* loop provides the "movement" of two values.<br>
+- **Iteration table** plays a big role in devising an algorithm as it lessens confusion.
+
+## Week 9:
+- **Greedy Algorithms** – algorithms that make what seems to be the “best” choice at each step 
+- **Growth of Functions**
+  - **Big-O Notation**: Let f and g be functions from the set of integers or the set of real numbers to the set of real numbers. We say that f(x) is O(g(x)) if there are constants C and k such that |f (x)| ≤ C|g(x)| whenever x > k. 
+    - Introduced two witnesses: C (constant multiplier) and k (# of input values). 
+    - Graph: Complexity (no. of operations) v. Input 
+    - O(n) - upperbound notation
+    - Lesser complexity provides better algorithm. 
+    - A Display of the Growth of Functions Commonly Used in Big-O Estimates: <br>
+     ![ScreenShot](bigo.png)
+  - **Big-Omega & Big-Theta Notations**: This is the reason why Sir Melvin said that "Big O is important but not useful in the quiz." These notations was the common misuse of big-O notation when both an upper and a lower bound on the size of a function are needed.
+    - **Big-Omega Notation**: Let f and g be functions from the set of integers or the set of real numbers to the set of real numbers. We say that f(x) is 􏰰(g(x)) if there are positive constants C and k such that |f(x)| ≥ C|g(x)| whenever x > k. It provides the lower bound for the size of f(x).
+    - **Big-Theta Notation**: It provides the upper and lower bound for the size of f(x).
+- **Complexity of Algorithms**
+  - tbd.
