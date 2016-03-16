@@ -3,6 +3,7 @@ dismathportfolio-yeohjason created by Classroom for GitHub
 
 Jason Yeoh | 11417889 | CPE | DISMATH EQ 
 - [PROJECT 0.0 LINK](https://github.com/yeohjason/DISMATH_Project0.0_yeohjason)
+- [PROJECT BONUS LINK](https://github.com/yeohjason/DISMATH_ProjectBonus_yeohjason)
 
 ## Week 1:
 - In this week, I was introduced to an odd but interesting subject called **Discrete Mathematics** (DISMATH).
@@ -186,9 +187,9 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
     - Ex. Output: MAX - largest number
 - **Searching Algorithms**
   - Linear Search (or Sequential Search) <br>
-  ![ScreenShot](linsearch.png) 
+  ![ScreenShot](linsearch.jpg) 
   - Binary Search <br>
-  ![ScreenShot](binsearch.png) 
+  ![ScreenShot](binsearch.jpg) 
 - **Sorting Algorithms**
   - Bubble Sort <br>
   ![ScreenShot](bubsort.png) 
