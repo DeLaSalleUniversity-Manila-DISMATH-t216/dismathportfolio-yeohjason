@@ -271,7 +271,7 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
 		- Multigraphs – graphs that may have multiple edges connecting the same vertices 
 	- A directed graph (or digraph) (V,E) consists of a nonempty set of vertices V and a set of directed edges (or arcs) E. Each directed edge is associated with an ordered pair of vertices. The directed edge associated with the ordered pair (u, v) is said to start at u and end at v.
 	- **Graph Terminology**<br>
-	![ScreenShot](graphterminology.jpg) 
+	![ScreenShot](graphterminology.png) 
 	- **Special Simple Graphs**<br>
 		- Complete Graphs (Kn): A complete graph on n vertices.
 		<br> ![ScreenShot](graphcomplete.jpg) 
@@ -279,6 +279,8 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
 		<br> ![ScreenShot](graphcycle.jpg) 
 		- Wheels (Wn): An additional vertex is added to a cycle Cn, for n ≥ 3. It is connected to the new vertex to each of the n vertices in Cn, by new edges.
 		<br> ![ScreenShot](graphwheel.jpg) 
+		- n-Cubes
+		<br> ![ScreenShot](graphncube.jpg) 
 	- The *degree* of a vertex in an undirected graph is the number of edges incident with it, except that a loop at a vertex contributes twice to the degree of that vertex. The degree of the vertex v is denoted by deg(v).
 		- **The Handshaking theory**: 2e = ∑deg(v)
 		- An undirected graph has an even number of vertices of odd degree.
