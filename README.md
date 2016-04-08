@@ -170,6 +170,7 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
   - Membership
     - 1 ∈ {1, 3, 5, 7}
 - **Set Identities**
+
 |  **Laws**  |  **Identity**  |
 | :------: | :-----------------------------: |
 |  Identity Laws  |  A ⋂ U ≡ A  <br>  A ⋃ ∅ ≡ A  |
