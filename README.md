@@ -145,7 +145,7 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
   -------------------- <br>
   ∴ p{S<sub>1</sub>:S<sub>2</sub>}q 
 
-<br> ![ScreenShot](quiz1.jpg) <br>
+<br> ![ScreenShot](quiz1.jpg) 
 
 - **Recursive Algorithms**
   - An algorithm is called recursive if it solves a problem by reducing it to an instance of the same problem with smaller input.
@@ -250,7 +250,7 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
   	- q = a div d
   	- r = a mod d
 
-<br> ![ScreenShot](quiz2.jpg) <br>
+<br> ![ScreenShot](quiz2.jpg) 
 
 ##Week 11:
 <br> ![ScreenShot](noclasses.jpg) 
@@ -305,7 +305,7 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
 		- [NON-PLANAR] *Homeomorphic Graph*: The graphs are homeomorphic to each other if they can be obtained from the same graph by a sequence of elementary subdivisions.
 			- [Kuratowski's Theorem] A graph is nonplanar if and only if it contains a subgraph homeomorphic to K3,3 or K5.
 
-<br>![ScreenShot](quiz3.jpg) <br>
+<br>![ScreenShot](quiz3.jpg) 
 
 ##Week 13:
 - Continuation on **Graph Theory**.
