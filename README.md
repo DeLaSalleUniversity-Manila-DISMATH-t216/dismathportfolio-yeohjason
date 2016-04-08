@@ -91,7 +91,6 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
     1. Assume that P (hypothesis) is true.
     2. Use P to show that Q (conclusion) must be true.
 
-
 ## Week 4:
 - [2/6] **Proof by Contraposition** (¬Q → ¬P): 
   - Steps in constructing Contrapositive Proof:
@@ -110,7 +109,6 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
 - Our instructor provided a clear definition of a rational number. 
   - The real number *r* is *rational* if there exist integers p and q with q≠0 such that **r = p/q**. Otherwise, it is an *irrational number*.
   - Q = {a/b | a, b ∈ ℤ} where b≠0, a & b have no common factor other than ±1
-
 
 ## Week 5:
 - [5/6] **Proof by Equivalence** (Biconditionals):
@@ -164,7 +162,40 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
 
 ## Week 7:
 
----
+- **Introduction to Set Theory** - a set is an unordered collection of distinct objects, which may be anything.
+    - {a, b, d, c, f, e}
+  - Empty Set { } = ∅ means no elements
+    - {∅} not an empty set
+  - Set Builder Notation 
+    - {x | some property that x satisfies}
+  - Membership
+    - 1 ∈ {1, 3, 5, 7}
+- **Venn Diagram**
+- **Set Identities**
+
+|  **Laws**  |  **Identity**  |
+| :------: | :-----------------------------: |
+|  Identity Laws  |  A ⋂ U ≡ A  <br>  A ⋃ ∅ ≡ A  |
+|  Domination Laws  |  A ⋃ U ≡ U  <br>  A ⋂ ∅ ≡ ∅  |
+|  Idempotent Laws  |  A ⋃ A ≡ A  <br>  A ⋂ A ≡ A  |
+|  Complementation Law  |  (A¯)‾ ≡ A  |
+|  Commutative Laws  |  A ⋃ B ≡ B ⋃ A  <br>  A ⋂ B ≡ B ⋂ A  |
+|  Associative Laws  |  A ⋃ (B ⋃ C) ≡ (A ⋃ B) ⋃ C  <br>  A ⋂ (B ⋂ C) ≡ (A ⋂ B) ⋂ C  |
+|  Distributive Laws  |  A ⋃ (B ⋂ C) ≡ (A ⋃ B) ⋂ (A ⋃ C) <br>  A ⋂ (B ⋃ C) ≡ (A ⋂ B) ⋃ (A ⋂ C)  |
+|  De Morgan's Laws  |  (A ⋂ B)‾ ≡ A‾ ⋃ B‾  <br>  (A ⋃ B)‾ ≡ A‾ ⋂ B‾  |
+|  Absorption Laws  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
+|  Complement Laws  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
+
+- **Subsets** (⊆) - A set S is a subset of a set T (denotes S ⊆ T) if all elements of S are also elements of T.
+- **Power Set** P(S) = {T|T ⊆ S}
+- **Cardinality** - the cardinality of a set is the number of element it contains.
+- **Functions**
+  - Let A and B be sets. A function f from A to B is an assignment of exactly one element of B to each element of A.
+  - also called *mappings* or *transformations*.
+- **Types of Functions**
+    - One-to-one Function (Injection) - functions that never assign the same value to two different domain elements.
+    - Onto Function (Surjective) - functions have equal range & co-domain.
+    - One-to-one Correspondence (Bijection) - function is both one-to-one and onto.
 
 ## Week 8: 
 
@@ -208,8 +239,56 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
     - Lesser complexity provides better algorithm. 
     - A Display of the Growth of Functions Commonly Used in Big-O Estimates: <br>
      ![ScreenShot](bigo.png)
-  - **Big-Omega & Big-Theta Notations**: This is the reason why Sir Melvin said that "Big O is important but not useful in the quiz." These notations was the common misuse of big-O notation when both an upper and a lower bound on the size of a function are needed.
-    - **Big-Omega Notation**: Let f and g be functions from the set of integers or the set of real numbers to the set of real numbers. We say that f(x) is 􏰰(g(x)) if there are positive constants C and k such that |f(x)| ≥ C|g(x)| whenever x > k. It provides the lower bound for the size of f(x).
-    - **Big-Theta Notation**: It provides the upper and lower bound for the size of f(x).
+
+##Week 10:
+- Continuation on **Growth of Functions**
+	- **Big-Omega & Big-Theta Notations**: This is the reason why Sir Melvin said that "Big O is important but not useful in the quiz." These notations was the common misuse of big-O notation when both an upper and a lower bound on the size of a function are needed.
+	- **Big-Omega Notation**: Let f and g be functions from the set of integers or the set of real numbers to the set of real numbers. We say that f(x) is 􏰰(g(x)) if there are positive constants C and k such that |f(x)| ≥ C|g(x)| whenever x > k. It provides the lower bound for the size of f(x).
+	- **Big-Theta Notation**: It provides the upper and lower bound for the size of f(x).
 - **Complexity of Algorithms**
-  - tbd.
+  - They can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
+  - "Questions such as these involve the **computational complexity** of the algorithm. An analysis of the time required to solve a problem of a particular size involves the **time complexity** of the algorithm. An analysis of the computer memory required involves the **space complexity** of the algorithm." (Rosen, 2012)
+- **Division and Modulo Operator**
+  - *The Division Algorithm*: Let a be an integer and d a positive integer. Then there are unique integers q and r, with 0 ≤ r < d, such that a = dq + r.
+  	- q = a div d
+  	- r = a mod d
+ <br><br>
+**END OF QUIZ 2 COVERAGE** <br><br>
+
+
+##Week 11:
+#Holy Week
+
+##Week 12:
+- **Graph Theory** 
+	- A *graph* G = (V,E) consists of V, a nonempty set of *vertices* (or nodes) and E, a set of *edges*. Each edge has either one or two vertices associated with it, called its endpoints. An edge is said to connect its endpoints.
+	- A graph with an infinite vertex set or an infinite number of edges is called an *infinite graph*, and in comparison, a graph with a finite vertex set and a finite edge set is called a *finite graph*.
+	- **Simple graph vs. Multigraph**
+		- Simple graph – a graph in which each edge connects two different vertices and where no two edges connect the same pair of vertices
+		- Multigraphs – graphs that may have multiple edges connecting the same vertices 
+	- A directed graph (or digraph) (V,E) consists of a nonempty set of vertices V and a set of directed edges (or arcs) E. Each directed edge is associated with an ordered pair of vertices. The directed edge associated with the ordered pair (u, v) is said to start at u and end at v.
+	- **Graph Terminology**<br>
+	![ScreenShot](graphterminology.jpg) 
+	- **Special Simple Graphs**<br>
+		- Complete Graphs (Kn): A complete graph on n vertices.
+		<br> ![ScreenShot](graphcomplete.jpg) 
+		- Cycle (Cn): Cycles A cycle Cn, n ≥ 3, consists of n vertices v1, v2, . . . , vn and edges {v1, v2}, {v2, v3}, . . . , {vn−1, vn}, and {vn, v1}.
+		<br> ![ScreenShot](graphcycle.jpg) 
+		- Wheels (Wn): An additional vertex is added to a cycle Cn, for n ≥ 3. It is connected to the new vertex to each of the n vertices in Cn, by new edges.
+		<br> ![ScreenShot](graphwheel.jpg) 
+	- The *degree* of a vertex in an undirected graph is the number of edges incident with it, except that a loop at a vertex contributes twice to the degree of that vertex. The degree of the vertex v is denoted by deg(v).
+		- **The Handshaking theory**: 2e = ∑deg(v)
+		- An undirected graph has an even number of vertices of odd degree.
+	- **Bipartite Graphs**: A simple graph G is called bipartite if its vertex set V can be partitioned into two disjoint sets V1 and V2 such that every edge in the graph connects a vertex in V1 and a vertex in V2 (so that no edge in G connects either two vertices in V1 or two vertices in V2). When this condition holds, we call the pair (V1, V2) a bipartition of the vertex set V of G.
+	- **Isolated vs. Pendant**
+		- Isolated - vertex with 0 degree
+		- Pendant - vertex with one degree
+	- **Path** - sequence of edges travelling from vertex to vertex along the edges
+	- **Eulerian**
+		- Euler Circuit - passes through every edge and goes back to starting point. All vertex has a degree of **2**.
+		- Euler Path - simple path containing every edge of the graph. Exactly **2** vertices have an odd degree.
+	- **Hamiltonian**
+		- Hamilton Path - passes through every vertex
+		- Hamilton Circuit - passes through every vertex then goes back to the starting point
+Matrices of Graphs - 1 for adjacent; 0 for non-adjacent
+Incidence of Matrices - Matric between vertices and edges
