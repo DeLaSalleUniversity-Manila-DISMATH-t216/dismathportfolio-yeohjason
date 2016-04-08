@@ -279,7 +279,7 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
 		<br> ![ScreenShot](graphcycle.jpg) 
 		- Wheels (Wn): An additional vertex is added to a cycle Cn, for n ≥ 3. It is connected to the new vertex to each of the n vertices in Cn, by new edges.
 		<br> ![ScreenShot](graphwheel.jpg) 
-		- n-Cubes
+		- n-Cubes (Qn):
 		<br> ![ScreenShot](graphncube.jpg) 
 	- The *degree* of a vertex in an undirected graph is the number of edges incident with it, except that a loop at a vertex contributes twice to the degree of that vertex. The degree of the vertex v is denoted by deg(v).
 		- **The Handshaking theory**: 2e = ∑deg(v)
