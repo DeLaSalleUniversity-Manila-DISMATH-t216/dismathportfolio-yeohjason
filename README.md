@@ -1,5 +1,4 @@
-# dismathportfolio-yeohjason
-dismathportfolio-yeohjason created by Classroom for GitHub
+![ScreenShot](cover.jpg)
 
 Jason Yeoh | 11417889 | CPE | DISMATH EQ 
 - [PROJECT 0.0 LINK](https://github.com/yeohjason/DISMATH_Project0.0_yeohjason)
@@ -128,6 +127,8 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
     1. Show (not ~~assume~~) P(1) or P(0) to be true.
     2. Assume P(k) is true.
     3. Show P(k+1) to be true.
+
+## Week 6:
 - **Program Correctness**
   - A program is said to be correct if it produces the correct output for every possible input. 
   - Two parts of proof:
@@ -156,10 +157,6 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
     ```if n = 0 then return 1``` <br>
     ```else return a · power(a, n − 1)``` <br>
 
-## Week 6:
-
-----
-
 ## Week 7:
 
 - **Introduction to Set Theory** - a set is an unordered collection of distinct objects, which may be anything.
@@ -170,9 +167,7 @@ Jason Yeoh | 11417889 | CPE | DISMATH EQ
     - {x | some property that x satisfies}
   - Membership
     - 1 ∈ {1, 3, 5, 7}
-- **Venn Diagram**
 - **Set Identities**
-
 |  **Laws**  |  **Identity**  |
 | :------: | :-----------------------------: |
 |  Identity Laws  |  A ⋂ U ≡ A  <br>  A ⋃ ∅ ≡ A  |
